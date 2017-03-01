@@ -101,6 +101,7 @@ class Scanner
     end
   end
 
+  # Tries to connect to telnet server with given credentials
   def connect(host, user, pass)
     target = Net::Telnet.new("Host" => host, "Timeout" => 5)
     begin
@@ -111,11 +112,12 @@ class Scanner
     end
   end
 
+  # Batch scans hosts
   def scan_hosts
     if @hosts.any?
       puts "[#{'*'.blue}] Starting to scan hosts for vulnerable telnet credentials"
-      @hosts.each do |fucka|
-        scan(fucka)
+      @hosts.each do |host|
+        scan(host)
       end
     else
       puts "[.] Bad luck, no vulnerable hosts found"
