@@ -1,5 +1,14 @@
 # helnet
 
+```
+dP                dP                     dP  v0.2
+88                88                     88
+88d888b. .d8888b. 88 88d888b. .d8888b. d8888P
+88'  `88 88ooood8 88 88'  `88 88ooood8   88
+88    88 88.  ... 88 88    88 88.  ...   88
+dP    dP `88888P' dP dP    dP `88888P'   dP
+```
+
 `helnet` is a network scanner that finds vulnerable telnet servers that can be logged in with default credentials that mirai bot is using.
 
 ### Dependencies
