@@ -15,6 +15,7 @@ dP    dP `88888P' dP dP    dP `88888P'   dP
 - nmap
 - net-telnet gem: https://github.com/ruby/net-telnet
 - ipaddress gem
+- byebug gem
 
 ### How to run
 `helnet` can scan networks with CIDR or single IP Addresses:
